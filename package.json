@@ -1,0 +1,33 @@
+{
+  "name": "noire-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NOIRÉ — a dark-luxury perfume brand landing page (demo). Next.js + React Three Fiber.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource-variable/bodoni-moda": "^5.2.0",
+    "@fontsource-variable/jost": "^5.2.0",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "motion": "^12.0.0",
+    "next": "^16.4.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/three": "^0.180.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
